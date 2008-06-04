@@ -1,0 +1,18 @@
+DESCRIPTION="Dirac video codec"
+HOMEPAGE="http://dirac.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+
+abi=${PVP[1]}
+PKG_NAMES="${PN} lib${PN}${abi} lib${PN}-devel ${PN}-doc"
+PKG_HINTS="setup lib devel doc"
+PKG_CONTENTS[0]="--exclude=documentation --exclude=*.dll usr/bin/ usr/share/"
+PKG_CONTENTS[1]="usr/bin/*-${abi}.dll"
+PKG_CONTENTS[2]="usr/include/ usr/lib/"
+PKG_CONTENTS[3]="usr/share/doc/${P}/documentation/"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	mv ${D}/usr/share/doc/${PN} ${D}/usr/share/doc/${P}
+}

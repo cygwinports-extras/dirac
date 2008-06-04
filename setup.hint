@@ -1,5 +1,5 @@
 category: Video
-requires: cygwin libdirac0 perl
+requires: cygwin libdirac10 perl
 sdesc: "Dirac video codec (utilities)"
 ldesc: "Dirac is a general-purpose video codec aimed at resolutions from
 QCIF (176x144) to HDTV (1920x1080) progressive or interlaced. It uses
