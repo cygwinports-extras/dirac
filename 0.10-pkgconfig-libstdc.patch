@@ -1,0 +1,10 @@
+--- origsrc/dirac-0.10.0/dirac.pc.in	2008-05-04 21:14:06.000000000 -0500
++++ src/dirac-0.10.0/dirac.pc.in	2008-06-15 03:41:15.859375000 -0500
+@@ -6,6 +6,6 @@
+ Name: @GENERIC_LIBRARY_NAME@
+ Description: The BBC Dirac Video Codec
+ Version: @VERSION@
+-Libs: -L${libdir} -l@GENERIC_LIBRARY_NAME@_encoder -l@GENERIC_LIBRARY_NAME@_decoder -lstdc++
++Libs: -L${libdir} -l@GENERIC_LIBRARY_NAME@_encoder -l@GENERIC_LIBRARY_NAME@_decoder
+ Cflags: -I${includedir}/@GENERIC_LIBRARY_NAME@
+ 
