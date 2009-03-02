@@ -31,18 +31,18 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack dirac-1.0.0-X-src.tar.bz2
+  unpack dirac-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./dirac-1.0.0-X.cygport all
+  cygport ./dirac-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/dirac-1.0.0-X-src.tar.bz2
-  /usr/src/dirac-1.0.0-X.tar.bz2
-  /usr/src/libdirac-devel-1.0.0-X.tar.bz2
-  /usr/src/libdirac-doc-1.0.0-X.tar.bz2
-  /usr/src/libdirac0-1.0.0-X.tar.bz2
+  /usr/src/dirac-1.0.2-X-src.tar.bz2
+  /usr/src/dirac-1.0.2-X.tar.bz2
+  /usr/src/libdirac-devel-1.0.2-X.tar.bz2
+  /usr/src/libdirac-doc-1.0.2-X.tar.bz2
+  /usr/src/libdirac0-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -69,16 +69,16 @@ Files included in the binary packages:
   /usr/bin/dirac_decoder.exe
   /usr/bin/dirac_encoder.exe
   /usr/bin/dirac_instrumentation.exe
-  /usr/share/doc/dirac-1.0.0/AUTHORS
-  /usr/share/doc/dirac-1.0.0/COPYING
-  /usr/share/doc/dirac-1.0.0/ChangeLog
-  /usr/share/doc/dirac-1.0.0/INSTALL
-  /usr/share/doc/dirac-1.0.0/NEWS
-  /usr/share/doc/dirac-1.0.0/README
-  /usr/share/doc/dirac-1.0.0/TODO
-  /usr/share/doc/dirac-1.0.0/dirac_bitstream.txt
-  /usr/share/doc/dirac-1.0.0/faq.html
-  /usr/share/doc/dirac-1.0.0/todo.html
+  /usr/share/doc/dirac-1.0.2/AUTHORS
+  /usr/share/doc/dirac-1.0.2/COPYING
+  /usr/share/doc/dirac-1.0.2/ChangeLog
+  /usr/share/doc/dirac-1.0.2/INSTALL
+  /usr/share/doc/dirac-1.0.2/NEWS
+  /usr/share/doc/dirac-1.0.2/README
+  /usr/share/doc/dirac-1.0.2/TODO
+  /usr/share/doc/dirac-1.0.2/dirac_bitstream.txt
+  /usr/share/doc/dirac-1.0.2/faq.html
+  /usr/share/doc/dirac-1.0.2/todo.html
 
 (libdirac0)
   /usr/bin/cygdirac_decoder-0.dll
@@ -101,11 +101,14 @@ Files included in the binary packages:
   /usr/lib/pkgconfig/dirac.pc
 
 (dirac-doc)
-  /usr/share/doc/dirac-1.0.0/code/api_html/*
+  /usr/share/doc/dirac-1.0.2/code/api_html/*
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump.
 
 ----- version 1.0.0-1 -----
 Version bump.
