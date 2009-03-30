@@ -6,20 +6,22 @@ wavelets, motion compensation and arithmetic coding and aims to be
 competitive with other state of the art codecs.
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libstdc++6-4.3.2-2
   perl
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-3
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libtool-2.2.7a-11
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical website:
@@ -69,16 +71,16 @@ Files included in the binary packages:
   /usr/bin/dirac_decoder.exe
   /usr/bin/dirac_encoder.exe
   /usr/bin/dirac_instrumentation.exe
-  /usr/share/doc/dirac-1.0.2/AUTHORS
-  /usr/share/doc/dirac-1.0.2/COPYING
-  /usr/share/doc/dirac-1.0.2/ChangeLog
-  /usr/share/doc/dirac-1.0.2/INSTALL
-  /usr/share/doc/dirac-1.0.2/NEWS
-  /usr/share/doc/dirac-1.0.2/README
-  /usr/share/doc/dirac-1.0.2/TODO
-  /usr/share/doc/dirac-1.0.2/dirac_bitstream.txt
-  /usr/share/doc/dirac-1.0.2/faq.html
-  /usr/share/doc/dirac-1.0.2/todo.html
+  /usr/share/doc/dirac/AUTHORS
+  /usr/share/doc/dirac/COPYING
+  /usr/share/doc/dirac/ChangeLog
+  /usr/share/doc/dirac/INSTALL
+  /usr/share/doc/dirac/NEWS
+  /usr/share/doc/dirac/README
+  /usr/share/doc/dirac/TODO
+  /usr/share/doc/dirac/dirac_bitstream.txt
+  /usr/share/doc/dirac/faq.html
+  /usr/share/doc/dirac/todo.html
 
 (libdirac0)
   /usr/bin/cygdirac_decoder-0.dll
@@ -101,30 +103,14 @@ Files included in the binary packages:
   /usr/lib/pkgconfig/dirac.pc
 
 (dirac-doc)
-  /usr/share/doc/dirac-1.0.2/code/api_html/*
+  /usr/share/doc/dirac/code/api_html/*
 
 ------------------
 
 Port Notes:
 
------ version 1.0.2-1 -----
-Version bump.
-
------ version 1.0.0-1 -----
-Version bump.
-
------ version 0.10.0-1 -----
-Version bump.
-Changed the ABI version number to reflect lack of stability.
-
------ version 0.9.1-1 -----
-Version bump.
-
------ version 0.5.4-1 -----
-Reverted version because gst-plugins is incompatible with 0.6 API changes.
-
------ version 0.6.0-1 -----
-Initial release for Cygwin.
+----- version 1.0.2-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

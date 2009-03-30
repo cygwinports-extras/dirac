@@ -1,5 +1,5 @@
-category: Video Libs
-requires: cygwin libdirac0
+category: Video
+requires: cygwin libdirac0 libstdc++6-devel
 external-source: dirac
 sdesc: "Dirac video codec (development)"
 ldesc: "Dirac is a general-purpose video codec aimed at resolutions from
