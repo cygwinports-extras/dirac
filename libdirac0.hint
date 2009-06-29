@@ -1,5 +1,5 @@
 category: Video
-requires: cygwin libgcc1 libstdc++6
+requires: libgcc1 libstdc++6
 external-source: dirac
 sdesc: "Dirac video codec (runtime)"
 ldesc: "Dirac is a general-purpose video codec aimed at resolutions from
