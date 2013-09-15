@@ -1,0 +1,22 @@
+--- origsrc/dirac-1.0.2/tests/Makefile.am	2007-03-23 10:32:54.000000000 -0500
++++ src/dirac-1.0.2/tests/Makefile.am	2013-09-15 13:31:34.583872500 -0500
+@@ -16,7 +16,7 @@ MAINTAINERCLEANFILES = Makefile.in $(TES
+ check_SCRIPTS = at_wrap
+ 
+ # scripts that have to be instlalled
+-bin_SCRIPTS =  create_dirac_testfile.pl
++noinst_SCRIPTS =  create_dirac_testfile.pl
+ 
+ $(srcdir)/package.m4: $(top_srcdir)/configure.ac
+ 	{					\
+--- origsrc/dirac-1.0.2/unit_tests/Makefile.am	2004-11-26 07:36:25.000000000 -0600
++++ src/dirac-1.0.2/unit_tests/Makefile.am	2013-09-15 13:28:15.921509700 -0500
+@@ -3,7 +3,7 @@
+ 
+ INCLUDES = -I$(top_srcdir) -I$(srcdir)
+ 
+-bin_PROGRAMS=dirac_unittest
++check_PROGRAMS=dirac_unittest
+ 
+ dirac_unittest_SOURCES = utmain.cpp \
+                          core_suite.h \
